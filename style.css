@@ -1,0 +1,44 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+#movingArea
+{
+	height: 600px;
+	background-color: purple;
+}
+
+
+
+#line
+{
+	position: absolute;
+	top: 250px;
+	height: 5px;
+	width: 100%;
+	background-color: white;
+}
+
+
+#bike
+{
+	position: absolute;
+	/*top:330px;*/
+	left: 0px;
+	background-color: purple;
+	animation-name: drive;
+	animation-duration: 4s;
+}
+
+
+
+
+@keyframes drive
+{
+   from {transform: translate(0px)}
+   to {transform: translate(1000px)}
+}
