@@ -1,3 +1,3 @@
-# bikeAnime
+# BikeAnime
 
-Bike animatiion for preloader made via @keyframes js
+Bike animation for preloader made via @keyframes css
